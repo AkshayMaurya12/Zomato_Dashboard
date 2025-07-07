@@ -1,82 +1,87 @@
-🍽️ Zomato Order Analytics Dashboard – Power BI
-
-This Power BI project is a comprehensive and interactive dashboard that visualizes insights from a fictional Zomato food order dataset. The purpose of the project is to simulate real-world restaurant analytics and customer behavior to understand how data can drive strategic decisions in the online food delivery ecosystem.
-
-It is structured into three distinct pages, each focusing on a specific aspect of the business: overall national insights, restaurant-level performance, and delivery metrics.
 
 
-🎯 Project Objective
-With the rapid growth of food delivery platforms, businesses like Zomato need strong analytics to make informed decisions. This dashboard mimics that scenario by answering key business questions such as:
+## 🍽️ Zomato Order Analytics Dashboard – Power BI
 
-📍 Which states or regions generate the highest food delivery revenue?
-🏆 Which restaurant chains are most popular and profitable?
-⏱️ How efficient is the delivery system across different distances and locations?
-💳 What are the most preferred payment modes by customers?
-🍽️ How do ratings, cost, and tipping behavior vary across cities and states?
+This Power BI dashboard is an in-depth analytical solution that visualizes order-level data inspired by Zomato, one of India’s leading food delivery platforms. It explores key business metrics across three themed pages: **Home**, **Restaurant Details**, and **Delivery Details**, offering a comprehensive look at how various components of a food delivery ecosystem perform.
 
+The dashboard is designed to replicate real-world analytics that restaurant aggregators and delivery companies rely on to improve performance, customer satisfaction, and logistics efficiency. It helps decision-makers answer important questions such as:
 
-By answering these, the dashboard helps simulate how stakeholders—restaurant owners, marketers, logistics teams, and executives—can use data to improve their operations and customer experience.
+* Which regions generate the highest order revenue?
+* What are the most and least popular restaurant types?
+* Which brands and cities receive the best ratings?
+* How do delivery times vary by distance or location?
+* What’s the tipping culture like across Indian states?
 
+---
 
-📊 Dashboard Overview (3 Structured Pages)
-🏠 Page 1: Home (Order Summary and Trends)
-This page serves as the national overview of food order activity and payment behavior.
+### 🏠 Home Page: National Order Summary
 
-Key Insights:
-1. Total Order Value: ₹19M+ spread across various states.
-2. Order Volume by State: Maharashtra, Uttar Pradesh, and Tamil Nadu lead in total spending.
-3. Order Value by Month: Peaks in July (₹19.4 Lakhs), dips in November (₹8.2 Lakhs).
-4. Preferred Payment Modes: UPI and Cash are top choices, followed closely by Net Banking and cards.
-5. Restaurant Type Performance: Quick Bites and Casual Dining dominate revenue.
+The **Home** page presents an aggregated overview of order behavior across India. It provides insights into:
 
+* **Order Value by State**: Maharashtra, Uttar Pradesh, and Tamil Nadu are top contributors in total order value.
+* **Order Trends by Month**: July has the highest order volume (\~₹19.4 Lakhs), which is 136.53% more than November (the lowest).
+* **Payment Method Distribution**: UPI and Cash dominate transactions, followed by Net Banking and card payments.
+* **Order Value by Restaurant Type**: Quick Bites and Casual Dining are the most revenue-generating food categories.
+* **Key KPIs**:
 
-Overall KPIs:
+  * 💰 Total Order Value: ₹19M+
+  * 📦 Number of Orders: 12,080+
+  * 🌟 Average Rating: 3.00
 
-🧾 Total Orders: 12,080+
-🌟 Average Customer Rating: 3.00 (across cities and restaurants)
-💸 Revenue Share by Category: Highlights performance by dining type.
+This page acts as a dashboard-level executive summary for investors, analysts, or business owners to quickly gauge performance across the country.
 
+---
 
-🍴 Page 2: Restaurant Details
-This page focuses on evaluating individual restaurants and customer experiences.
+### 🍴 Restaurant Details Page: Brand & City Insights
 
-Highlights:
-Top Restaurants by Order Count:
+The **Restaurant Details** page drills into micro-level performance by individual restaurants and cities.
 
-Domino’s Pizza: 67 Orders
+* **Top Performing Chains by Order Count**:
 
-1. KFC, Cafe Coffee Day, Subway, and Burger King follow closely.
-2. Revenue by Restaurant: Visualized to show which restaurants bring in the most sales.
-3. City-Wise Ratings: Understand regional satisfaction by visualizing average ratings in cities like Bangalore, Patna, Dehradun, etc.
-4. Avg. Cost for 2 by State: Reveals affordability index in states like Telangana, Karnataka, and Maharashtra.
-5. This page is especially useful for franchise owners or aggregators to evaluate store-level performance and pricing strategies.
+  * Domino’s Pizza (67 orders)
+  * KFC, Cafe Coffee Day, Subway, and Burger King follow closely.
+* **Revenue by Restaurant**: A visual bar chart compares revenue generated by each brand.
+* **Average Ratings by City**: Cities like Bangalore, Ranchi, Dehradun, and Guwahati are shown with their respective customer satisfaction levels.
+* **Average Cost for Two by State**: Reveals affordability across regions, useful for pricing strategy or market segmentation.
 
+This section is ideal for marketing teams, franchise owners, and business strategists to analyze customer loyalty, brand popularity, and regional performance.
 
-🚚 Page 3: Delivery Details
-This section addresses operational and delivery efficiency metrics, including delivery times and customer tipping.
+---
 
-Insights Provided:
-1. Average Delivery Time by Distance:
-2. 0–5 km: ~49.44 minutes
-3. 5–10 km: ~50.12 minutes
-4. 10–15 km: ~49.16 minutes
+### 🚚 Delivery Details Page: Operational Metrics
 
-⚠️ Insight: Surprisingly similar delivery times across distances could indicate systemic delays.
+The **Delivery Details** page focuses on the logistics side of the business, offering operational insights into delivery efficiency and customer generosity.
 
+* **Average Delivery Time by Distance**:
 
-State-wise Delivery Performance:
-Chandigarh and Jammu & Kashmir record the longest delivery durations.
+  * 0–5 km: \~49.44 minutes
+  * 5–10 km: \~50.12 minutes
+  * 10–15 km: \~49.16 minutes
 
+  > Insight: Delivery time remains fairly consistent regardless of distance, suggesting potential systemic bottlenecks.
 
-Tipping Behavior by State:
-Himachal Pradesh, Delhi, and Punjab customers tip the most (₹99+ on average).
+* **State-wise Delivery Time**: Chandigarh and Jammu & Kashmir show higher average delivery times, highlighting potential regional delivery challenges.
 
-KPI Summary:
+* **Average Tip Amount by State**: Himachal Pradesh, Delhi, and Punjab lead in tipping behavior, with average tips over ₹99.
 
-📍 Avg. Delivery Distance: 7.65 km
-💰 Avg. Tip Amount: ₹99.02
+* **Delivery KPIs**:
 
-This page helps stakeholders identify logistics inefficiencies and regional customer generosity, both critical for improving service quality.
+  * 🚴 Avg. Delivery Distance: 7.65 km
+  * 💸 Avg. Tip Amount: ₹99.02
+
+This page helps operations teams monitor performance, detect inefficiencies, and improve service-level agreements (SLAs) for faster delivery and better customer satisfaction.
+
+---
+
+### 🎯 Overall Impact
+
+The dashboard provides a full-cycle view of the online food delivery pipeline—from the order being placed to its final delivery. It enables:
+
+* **Data-driven decision-making** in marketing, pricing, and logistics.
+* **Operational visibility** into restaurant and delivery chain performance.
+* **Customer behavior analysis** through rating patterns, tipping, and payment preferences.
+
+Whether used by a food-tech company, restaurant chain, data analyst, or student, this dashboard showcases how well-structured data can lead to meaningful, actionable insights in a competitive industry.
 
 Screenshots:
 
